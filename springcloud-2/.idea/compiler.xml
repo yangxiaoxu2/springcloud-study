@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-02-api" />
+        <module name="springcloud-03-provider-dept-8001" />
+        <module name="springcloud-03-provider-dept-8002" />
+        <module name="springcloud-03-provider-dept-8003" />
+        <module name="springcloud-03-provider-dept-hystrix-8001" />
+        <module name="springcloud-04-consumer-dept-80" />
+        <module name="springcloud-04-consumer-dept-feign" />
+        <module name="springcloud-04-consumer-hystrix-dashboard" />
+        <module name="springcloud-05-eureka-7001" />
+        <module name="springcloud-05-eureka-7002" />
+        <module name="springcloud-05-eureka-7003" />
+        <module name="springcloud-06-zuul-gateway-9527" />
+        <module name="springcloud-06-zuul-geteway-9527" />
+        <module name="springcloud-07-config-3344" />
+        <module name="springcloud-07-config-client-3355" />
+        <module name="springcloud-08-config-dept-client-8001" />
+        <module name="springcloud-08-config-eureka-client-7001" />
+        <module name="springcloud-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-01-parent" target="1.8" />
+      <module name="springcloud-02-api" target="1.8" />
+      <module name="springcloud-03-provider-dept-8001" target="1.8" />
+      <module name="springcloud-03-provider-dept-8002" target="1.8" />
+      <module name="springcloud-03-provider-dept-8003" target="1.8" />
+      <module name="springcloud-03-provider-dept-hystrix-8001" target="1.8" />
+      <module name="springcloud-04-consumer-dept-80" target="1.8" />
+      <module name="springcloud-04-consumer-dept-feign" target="1.8" />
+      <module name="springcloud-04-consumer-hystrix-dashboard" target="1.8" />
+      <module name="springcloud-05-eureka-7001" target="1.8" />
+      <module name="springcloud-05-eureka-7002" target="1.8" />
+      <module name="springcloud-05-eureka-7003" target="1.8" />
+      <module name="springcloud-06-zuul-gateway-9527" target="1.8" />
+      <module name="springcloud-06-zuul-geteway-9527" target="1.8" />
+      <module name="springcloud-07-config-3344" target="1.8" />
+      <module name="springcloud-07-config-client-3355" target="1.8" />
+      <module name="springcloud-08-config-dept-client-8001" target="1.8" />
+      <module name="springcloud-08-config-eureka-client-7001" target="1.8" />
+      <module name="springcloud-2" target="1.5" />
+      <module name="springcloud-api" target="1.8" />
+      <module name="springcloud-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

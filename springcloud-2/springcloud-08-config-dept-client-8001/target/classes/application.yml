@@ -1,0 +1,4 @@
+spring:
+  cloud:
+    config:
+      name: springcloud-config-dept-client

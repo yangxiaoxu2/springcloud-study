@@ -1,0 +1,12 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: springcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yangxiaoxu2/springcloud-config.git #GitHub上面git仓库的名字
+          username: yangxiaoxu2
+          password: yangxu@0927
